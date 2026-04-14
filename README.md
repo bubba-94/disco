@@ -44,7 +44,7 @@ Typically includes basic initialization and simple I/O (e.g., serial or LCD).
 
 ### Blinky
 
-[Source code](#apps/blinky/)
+[Source code](apps/blinky/)
 
 The classic initial embedded system project.  
 Toggle a LED at a fixed interval to perform basic I/O control.
