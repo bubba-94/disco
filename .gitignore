@@ -1,3 +1,72 @@
+# Repo specific
+build/
+
+# --- Build directories ---
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# --- CMake generated files ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CMakeScripts/
+
+# --- Compiled objects ---
+*.o
+*.obj
+*.lo
+*.la
+*.d
+*.dylib
+*.dll
+*.so
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.i
+*.ii
+
+# --- Debugging / profiling ---
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.pdb
+*.idb
+*.opt
+*.log
+
+# --- IDE / editors ---
+# VSCode
+.vscode/
+# CLion
+.idea/
+# Eclipse
+.project
+.cproject
+.settings/
+# QtCreator
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+
+# --- Misc ---
+*.swp
+*.swm
+*.tmp
+*.bak
+*.DS_Store
+
 # Prerequisites
 *.d
 
@@ -39,3 +108,40 @@
 
 # debug information files
 *.dwo
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tools
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+ruff.toml
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
